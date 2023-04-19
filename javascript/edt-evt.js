@@ -45,8 +45,8 @@ form.addEventListener("submit", async (evento) => {
   const response = await fetch(`${BASE_URL}/${id}`, options);
   if (response.ok) {
     alert("Evento atualizado com sucesso!");
-    window.location.href = window.location.pathname == "editar-evento.html"
+    window.location.href = window.location.pathname == "excluir-evento.html"
     ? `${window.location.origin}/admin.html`
-    : `${window.location.origin}//gardensound/admin.html`;
+    : `${window.location.origin}//desafio02-GardenSound/admin.html';
   }
 });
