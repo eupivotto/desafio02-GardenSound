@@ -42,6 +42,6 @@ form.onsubmit = async (evento) => {
     alert("Evento excluido com sucesso!!");
     window.location.href = window.location.pathname == "excluir-evento.html"
     ? `${window.location.origin}/admin.html`
-    : `${window.location.origin}/desafio02-GardenSound/admin.html';
+    : `${window.location.origin}//desafio02-GardenSound/admin.html`;
   }
 };
