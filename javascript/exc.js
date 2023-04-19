@@ -40,8 +40,8 @@ form.onsubmit = async (evento) => {
   const resposta = await fetch(`${BASE_URL}${id}`, options);
   if (resposta.status == 204) {
     alert("Evento excluido com sucesso!!");
-window.location.href = window.location.pathname == "excluir-evento.html"
+    window.location.href = window.location.pathname == "excluir-evento.html"
     ? `${window.location.origin}/admin.html`
-    : `${window.location.origin}//desafio02-GardenSound/admin.html';
+    : `${window.location.origin}/desafio02-GardenSound/admin.html';
   }
 };
