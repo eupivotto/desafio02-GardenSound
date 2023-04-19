@@ -3,7 +3,8 @@ const BASE_URL = "https://soundgarden-api.vercel.app/bookings";
 const tabela = document.querySelector("tbody");
 const titulo = document.querySelector("#h1eventos");
 
-// const id = new URLSearchParams(window.location.search).get("id");
+document.cookie = "cookieName=cookieValue; SameSite=None; secure";
+
 
 async function listasReservas() {
   try {
